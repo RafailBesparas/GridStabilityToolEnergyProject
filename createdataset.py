@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Generate sample data for Historical Market Prices
-dates = pd.date_range(start="2023-01-01", end="2023-01-31", freq="H")
-market_prices = np.random.uniform(20, 200, len(dates))  # Simulated prices in €/MWh
+dates = pd.date_range(start="2023-01-01", end="2024-12-31", freq="H")
+market_prices = np.random.uniform(20, 200, len(dates))  # Simulated prices in €/MWh from 20$ lowest and 200 highest
 
 # Generate sample data for Weather Data
 temperature = np.random.uniform(-5, 30, len(dates))  # Temperature in Celsius
