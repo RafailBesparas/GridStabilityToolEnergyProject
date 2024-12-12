@@ -26,6 +26,7 @@ dataset = pd.DataFrame({
 })
 
 
+# Saving the dataset to a csv
 dataset.to_csv("electricity_market_data.csv", index=False)
 
 print("Dataset saved to 'electricity_market_data.csv'")
