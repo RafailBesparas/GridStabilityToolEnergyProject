@@ -7,8 +7,7 @@ Develop a prototype tool that integrates energy forecasting, electricity market 
 
 2. Renewable Energy Integration
 Goal: Simulate renewable energy contributions (solar, wind).
-
-## Approach:
+Approach:
 Model solar and wind power generation based on weather forecasts.
 Integrate into market forecasts to evaluate grid impacts.
 
